@@ -31,7 +31,7 @@ steps:
       export CHKP_CLOUDGUARD_SECRET=$(CHKP_CLOUDGUARD_SECRET)
       export SHIFTLEFT_REGION=$(SHIFTLEFT_REGION) #Line used only if CG Native tenant is outside the US region (EU1 in Europe)
       echo "Scanning with ShiftLeft"
-      ./shiftleft code-scan -r -2003 -e f8392ad0-19ea-4138-92ce-237e68a6e90c -s ./
+      ./shiftleft code-scan -r -2003 -e 953a5813-aa20-49d2-95b4-538eb88b3db2 -s ./
       echo . 
     displayName: "ShiftLeft Scan"
 
